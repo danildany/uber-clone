@@ -53,7 +53,6 @@ const NavFavourites = ({ inHome }) => {
         <TouchableOpacity
           style={tw`flex-row items-center p-3`}
           onPress={() => {
-            console.log(inHome);
             if (!origin || inHome) {
               dispatch(
                 setOrigin({
